@@ -1,0 +1,19 @@
+[credential]
+	credentialStore = cache
+	helper = store
+[user]
+	email = joey@kilpatrick.cloud
+	name = Joey Kilpatrick
+[pull]
+	rebase = true
+[core]
+	editor = vim 
+	pager = delta
+[init]
+	defaultBranch = master
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+[merge]
+	conflictStyle = zdiff3
