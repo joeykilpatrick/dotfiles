@@ -95,7 +95,8 @@ for file in .*; do
     [[ "$file" == "." || 
         "$file" == ".." || 
         "$file" == ".git" ||
-        "$file" == ".gitignore" ]] && continue
+        "$file" == ".gitignore" ||
+        "$file" == ".gitattributes" ]] && continue
 
     src="$DOTFILES_REPO/$file"
     dest="$TARGET_HOME/$file"
