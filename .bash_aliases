@@ -11,7 +11,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -lAGhF --group-directories-first' # Joey's Favorite
+alias ll='ls -vlAGhF --group-directories-first' # Joey's Favorite
 alias la='ls -A'
 alias l='ls -CF'
 
