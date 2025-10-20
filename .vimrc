@@ -7,8 +7,7 @@ call plug#begin()
 Plug 'devsjc/vim-jb'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'pangloss/vim-javascript'    " JavaScript support
-Plug 'leafgarland/typescript-vim' " TypeScript syntax
+Plug 'airblade/vim-gitgutter'     " Git plus/minus on left
 
 call plug#end()
 
@@ -16,6 +15,8 @@ let g:coc_global_extensions = [
   \ 'coc-kotlin',
   \ 'coc-sh',
   \ 'coc-tsserver', 
+  \ 'coc-pyright',
+  \ 'coc-spell-checker',
   \ ]
 
 unlet! skip_defaults_vim
@@ -31,7 +32,6 @@ if $COLORTERM == 'truecolor'
   set termguicolors
 endif
 
-let mapleader="\<space>"
 nnoremap <leader>c :botright term<CR>
 
 colorscheme jb
