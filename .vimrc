@@ -8,6 +8,7 @@ Plug 'devsjc/vim-jb'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'airblade/vim-gitgutter'     " Git plus/minus on left
+Plug 'hashivim/vim-terraform'
 
 call plug#end()
 
@@ -17,6 +18,7 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver', 
   \ 'coc-pyright',
   \ 'coc-spell-checker',
+  \ 'coc-terraform',
   \ ]
 
 unlet! skip_defaults_vim
