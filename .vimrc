@@ -17,7 +17,6 @@ let g:coc_global_extensions = [
   \ 'coc-sh',
   \ 'coc-tsserver', 
   \ 'coc-pyright',
-  \ 'coc-spell-checker',
   \ 'coc-terraform',
   \ ]
 
