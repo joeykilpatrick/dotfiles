@@ -29,6 +29,7 @@ declare -A PACKAGE_BINARIES=(
     [ripgrep]="rg"
     [git-delta]="delta"
     [nmap]="nmap"
+    [tree]="tree"
 )
 
 echo "Installing packages (if missing) and linking dotfiles for $TARGET_USER."

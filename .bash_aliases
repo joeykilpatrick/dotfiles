@@ -23,3 +23,4 @@ alias alert='for i in {1..5}; do echo -ne "\a" && sleep 0.2; done'
 
 alias bat='batcat' # Prettier version of 'cat'
 
+alias tree='tree --gitignore --dirsfirst'
